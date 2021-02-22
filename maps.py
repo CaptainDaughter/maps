@@ -3,9 +3,9 @@ import os, sys, pygame, requests
 
 class MapParams(object):
     def __init__(self):
-        self.latitude = 59.9386
-        self.longitude = 30.3141
-        self.zoom = 15
+        self.latitude = 44.4192543
+        self.longitude = 38.2052612
+        self.zoom = 17
         self.type = "map"
 
     def ll(self):
